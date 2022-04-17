@@ -1,3 +1,5 @@
+//introduction, typeOf()
+
 let challange = "30DaysofJavaScript"
 let isOn = true
 let project;
