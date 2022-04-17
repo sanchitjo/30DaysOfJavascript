@@ -1,4 +1,5 @@
 //Exercise Level 1
+//data types, string methods
 
 let challange = '30 Days Of JavaScript'
 console.log(challange)
