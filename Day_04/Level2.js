@@ -2,7 +2,6 @@
 const grades = () => {
   let yourGrades = parseFloat(window.prompt("Enter your score : "));
 
-  let graaaade;
   if (yourGrades >= 90 && yourGrades <= 100) {
     console.log("you got A");
   } else if (yourGrades >= 80 && yourGrades <= 89) {
@@ -20,3 +19,31 @@ const grades = () => {
 // grades();
 
 //2
+const checkSeason = () => {
+  const enterMonth = window.prompt("Which month is this? : ").toUpperCase();
+
+  if (
+    enterMonth === "SEPTEMBER" ||
+    enterMonth === "OCTOBER" ||
+    enterMonth === "NOVEMBER"
+  ) {
+    console.log("It's automn season.");
+  } else if (
+    enterMonth === "DECEMBER" ||
+    enterMonth === "JANUARY" ||
+    enterMonth === "FEBRUARY"
+  ) {
+    console.log("Its Winter.");
+  } else if (
+    enterMonth === "MARCH" ||
+    enterMonth === "APRIL" ||
+    enterMonth === "MAY"
+  ) {
+    console.log("Spring season it is.");
+  } else {
+    console.log("Summer has started");
+  }
+};
+// checkSeason();
+
+//3
